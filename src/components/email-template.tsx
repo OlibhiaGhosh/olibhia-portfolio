@@ -1,13 +1,13 @@
 import * as React from 'react';
 
 interface EmailTemplateProps {
-  Content: string;
+  content: string;
 }
 
-export function EmailTemplate({ Content }: EmailTemplateProps) {
+export function EmailTemplate({ content }: EmailTemplateProps) {
   return (
     <div>
-      <p>{Content}</p>
+      <p>{content}</p>
     </div>
   );
 }

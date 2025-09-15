@@ -272,94 +272,95 @@ export default function Page() {
                 open to new opportunities and collaborations.
               </p>
                 <form
-                  action="#"
-                  className="space-y-6 rounded-xl shadow-lg p-8 border border-gray-800 w-full bg-black/60 backdrop-blur-md"
-                  onSubmit={(e) => {
-                    e.preventDefault();
-                    handleSubmit();
-                  }}
-                >
-                  <div>
-                    <label
-                      htmlFor="from"
-                      className="block mb-2 text-sm font-medium text-gray-200 text-left"
-                    >
-                      Your email
-                    </label>
-                    <input
-                      type="email"
-                      id="from"
-                      name="from"
-                      className="block w-full p-3 text-sm text-gray-900 bg-white/10 backdrop-blur-md rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="name@domain.com"
-                      value={contactFormData.from}
-                      onChange={handleonChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block mb-2 text-sm font-medium text-gray-200 text-left"
-                    >
-                      Your name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="block w-full p-3 text-sm text-gray-900 bg-white/10 backdrop-blur-md rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Jhon Doe"
-                      value={contactFormData.name}
-                      onChange={handleonChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="subject"
-                      className="block mb-2 text-sm font-medium text-gray-200 text-left"
-                    >
-                      Subject
-                    </label>
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      className="block w-full p-3 text-sm text-gray-900 bg-white/10 backdrop-blur-md rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Drop the subject here"
-                      value={contactFormData.subject}
-                      onChange={handleonChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="content"
-                      className="block mb-2 text-sm font-medium text-gray-200 text-left"
-                    >
-                      Your message
-                    </label>
-                    <textarea
-                      id="content"
-                      name="content"
-                      rows={6}
-                      className="block w-full p-3 text-sm text-gray-900 bg-white/10 backdrop-blur-md rounded-lg border border-gray-700 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Leave the message here..."
-                      value={contactFormData.content}
-                      onChange={handleonChange}
-                      required
-                    />
-                  </div>
-                  <div className="w-full flex justify-center">
-                    <button
-                      type="submit"
-                      className="py-3 px-6 text-sm font-medium text-white rounded-lg bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 transition"
-                    >
-                      Send message
-                    </button>
-                  </div>
-                </form>
+  action="#"
+  className="space-y-6 rounded-xl shadow-lg p-8 border border-gray-300 w-full bg-white/80 backdrop-blur-md dark:border-gray-700 dark:bg-black/60"
+  onSubmit={(e) => {
+    e.preventDefault();
+    handleSubmit();
+  }}
+>
+  <div>
+    <label
+      htmlFor="from"
+      className="block mb-2 text-sm font-medium text-gray-900 text-left dark:text-gray-200"
+    >
+      Your email
+    </label>
+    <input
+      type="email"
+      id="from"
+      name="from"
+      className="block w-full p-3 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      placeholder="name@domain.com"
+      value={contactFormData.from}
+      onChange={handleonChange}
+      required
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="name"
+      className="block mb-2 text-sm font-medium text-gray-900 text-left dark:text-gray-200"
+    >
+      Your name
+    </label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      className="block w-full p-3 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      placeholder="John Doe"
+      value={contactFormData.name}
+      onChange={handleonChange}
+      required
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="subject"
+      className="block mb-2 text-sm font-medium text-gray-900 text-left dark:text-gray-200"
+    >
+      Subject
+    </label>
+    <input
+      type="text"
+      id="subject"
+      name="subject"
+      className="block w-full p-3 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      placeholder="Drop the subject here"
+      value={contactFormData.subject}
+      onChange={handleonChange}
+      required
+    />
+  </div>
+  <div>
+    <label
+      htmlFor="content"
+      className="block mb-2 text-sm font-medium text-gray-900 text-left dark:text-gray-200"
+    >
+      Your message
+    </label>
+    <textarea
+      id="content"
+      name="content"
+      rows={6}
+      className="block w-full p-3 text-sm text-gray-900 bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-white/10 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+      placeholder="Leave the message here..."
+      value={contactFormData.content}
+      onChange={handleonChange}
+      required
+    />
+  </div>
+  <div className="w-full flex justify-center">
+    <button
+      type="submit"
+      className="py-3 px-6 text-sm font-medium text-white rounded-lg bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 transition"
+    >
+      Send message
+    </button>
+  </div>
+</form>
+
             </div>
           </BlurFade>
         </div>

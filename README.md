@@ -1,47 +1,51 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Olibhia Ghosh's Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+Hi, I'm Olibhia Ghosh, a Full Stack Developer and Technical Writer. I love building projects and making open source contributions.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## Description
 
-# Features
+I started my journey as a developer in 2023. I have a passion for writing and sharing my knowledge with the community. I also love building projects and contributing to open source. I'm currently looking for new opportunities.
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+This portfolio is a Next.js application styled with Tailwind CSS. It features a clean, modern design with a light and dark mode toggle. The layout is responsive and designed to provide a seamless user experience across different devices. The portfolio includes sections for my work experience, education, skills, and projects. It also has a contact form for visitors to get in touch with me.
 
-# Getting Started Locally
+## Getting Started
 
-1. Clone this repository to your local machine:
+To get a local copy up and running, follow these simple steps.
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+### Prerequisites
 
-2. Move to the cloned directory
+- Node.js (v20 or later)
+- npm, pnpm, or yarn
 
-   ```bash
-   cd portfolio
-   ```
+### Installation
 
-3. Install dependencies:
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/OlibhiaGhosh/olibhia-portfolio.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+3.  Start the development server
+    ```sh
+    npm run dev
+    ```
 
-   ```bash
-   pnpm install
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-4. Start the local Server:
+## Built With
 
-   ```bash
-   pnpm dev
-   ```
+*   [Next.js](https://nextjs.org/) - React framework for production
+*   [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+*   [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript at scale
+*   [Magic UI](https://magicui.design/) - UI library for design
+*   [Framer Motion](https://www.framer.com/motion/) - Animation library for React
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+## Acknowledgements
 
-# License
+This portfolio was built using an open-source template created by [Magic UI](https://magicui.design/).
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.

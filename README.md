@@ -1,5 +1,6 @@
 # Olibhia's Portfolio
-
+![Portfolio](./public/readme_image.png)
+<br/> <br/>
 Hi, I'm Olibhia Ghosh, a Full Stack Developer and Technical Writer. I love building projects and making open source contributions.
 
 ## Description
@@ -41,6 +42,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 *   [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript at scale
 *   [Magic UI](https://magicui.design/) - UI library for design
 *   [Framer Motion](https://www.framer.com/motion/) - Animation library for React
+
+## Contact
+Feel free to reach out to me via email at olibhia0712@gmail.com or connect with me on [Twitter](https://twitter.com/OlibhiaGhosh) and [LinkedIn](https://www.linkedin.com/in/olibhiaghosh/).
 
 ## Acknowledgements
 

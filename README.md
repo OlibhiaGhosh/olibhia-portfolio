@@ -1,4 +1,4 @@
-# Olibhia Ghosh's Portfolio
+# Olibhia's Portfolio
 
 Hi, I'm Olibhia Ghosh, a Full Stack Developer and Technical Writer. I love building projects and making open source contributions.
 

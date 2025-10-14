@@ -135,8 +135,44 @@ export const DATA = {
           href: "https://github.com/OlibhiaGhosh/Chatroom",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Demo",
+          href: "https://youtu.be/LTbuICvgpNA?si=D4KW01_VRrgIC1Co",
+          icon: <Icons.globe className="size-3" />,
+        },
       ],
       image: "/project-1.png",
+      video: "",
+    },
+    {
+      title: "NotebookLM",
+      href: "https://github.com/OlibhiaGhosh/NotebookLM",
+      dates: "Sep 2025",
+      active: true,
+      description:
+        "A Next.js application that allows users to chat with a large language model (LLM) with context from various sources, including uploaded files, websites, text, and YouTube videos.",
+      technologies: [
+        "Next.js",
+        "Langchain",
+        "QdrantDB",
+        "OpenAI",
+        "Nebius",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/OlibhiaGhosh/NotebookLM",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://youtu.be/-jfrHNcel-M?si=D8DUpZqk-z_j2Jm1",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/project-6.jpg",
       video: "",
     },
     {
@@ -166,13 +202,9 @@ export const DATA = {
       href: "https://ai-project-guide-pv6fmz6je-olibhia-ghoshs-projects.vercel.app/",
       dates: "July 2025",
       active: true,
-      description: " An AI integrated application built using NEBIUS, NextJs and Upstash for Rate limiting",
-      technologies: [
-        "Next.js",
-        "Upstash",
-        "NEBIUS",
-        "TailwindCSS",
-      ],
+      description:
+        " An AI integrated application built using NEBIUS, NextJs and Upstash for Rate limiting",
+      technologies: ["Next.js", "Upstash", "NEBIUS", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -186,20 +218,16 @@ export const DATA = {
         },
       ],
       image: "/project-3.png",
-      video:"",
+      video: "",
     },
     {
       title: "Slack Bot",
       href: "https://github.com/OlibhiaGhosh/Slack-bot",
       dates: "Jan 2024 - Feb 2024",
       active: true,
-      description: "A Slack Bot built with Node.js and the Slack Bolt API to automate tasks and enhance team communication.",
-      technologies: [
-        "Node.js",
-        "Slack API",
-        "JavaScript",
-        "GitHub",
-      ],
+      description:
+        "A Slack Bot built with Node.js and the Slack Bolt API to automate tasks and enhance team communication.",
+      technologies: ["Node.js", "Slack API", "JavaScript", "GitHub"],
       links: [
         {
           type: "Source",
@@ -208,21 +236,16 @@ export const DATA = {
         },
       ],
       image: "/project-4.png",
-      video:"",
+      video: "",
     },
     {
       title: "Google Drive Integration",
       href: "https://github.com/OlibhiaGhosh/Google-Drive-API-App",
       dates: "April 2023 - September 2023",
       active: true,
-      description: 
+      description:
         "Developed a Project using Google drive API to store and retrieve files.",
-      technologies: [
-        "Node.js",
-        "Google Drive API",
-        "JavaScript",
-        "GitHub",
-      ],
+      technologies: ["Node.js", "Google Drive API", "JavaScript", "GitHub"],
       links: [
         {
           type: "Source",
@@ -234,6 +257,5 @@ export const DATA = {
       video: "",
     },
   ],
-  hackathons: [
-  ],
+  hackathons: [],
 } as const;

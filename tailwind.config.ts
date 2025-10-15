@@ -56,6 +56,10 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        resume_card: {
+          DEFAULT: "hsl(var(--resume-card))",
+          foreground: "hsl(var(--resume-card-foreground))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

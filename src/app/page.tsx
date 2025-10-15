@@ -97,6 +97,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+      
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -132,6 +133,19 @@ export default function Page() {
           ))}
         </div>
       </section>
+      {/* <section id="resume">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Resume</h2>
+          </BlurFade>
+            <BlurFade
+              key="resume-link"
+              delay={BLUR_FADE_DELAY * 6  * 0.05}
+            >
+              <div className="text-muted-foreground bg-muted-background dark:bg-black p-2">Have a look at my Resume here: <a href="/resume" className="text-foreground font-bold hover:underline">Resume</a></div>
+            </BlurFade>
+        </div>
+      </section> */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>

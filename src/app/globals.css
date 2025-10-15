@@ -10,6 +10,9 @@
       --card: 0 0% 100%;
       --card-foreground: 210 11.1% 3.53%;
 
+      --resume-card: 0, 0%, 93%;
+      --resume-card-foreground: 0 0% 98%;
+
       --popover: 0 0% 100%;
       --popover-foreground: 210 11.1% 3.53%;
 
@@ -39,9 +42,10 @@
       --background: 210 11.1% 3.53%;
       --foreground: 0 0% 98%;
 
-      --card: 210 11.1% 3.53%;
+      --card: 210 11.1% .53%;
       --card-foreground: 0 0% 98%;
-
+      --resume-card: 0, 0%, 11%;
+      --resume-card-foreground: 0 0% 98%;
       --popover: 210 11.1% 3.53%;
       --popover-foreground: 0 0% 98%;
 

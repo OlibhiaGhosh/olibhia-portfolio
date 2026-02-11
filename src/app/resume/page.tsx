@@ -391,7 +391,7 @@ const Resume = () => {
     },
     {
       title: "Invoice Manager",
-      subtitle: "An full stack invoice manager app with features like creating, editing, exporting, downloading and deleting invoices. Also includes a AI drivenn dashboard to get insights on the invoices.",
+      subtitle: "An full stack invoice manager app with features like creating, editing, previewing, downloading and deleting invoices. Also includes an AI driven dashboard to get insights on the invoices.",
       description: "This is a full stack project built using Next.js as framework, NeonDB as database and Drizzle ORM for database ORM. Also used NextAuth for authentication and Tambo AI for generating insights.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "NeonDB", "NextAuth", "Tambo AI"],
       github: "https://github.com/OlibhiaGhosh/Invoice_manager",

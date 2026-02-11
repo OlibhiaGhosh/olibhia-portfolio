@@ -151,7 +151,7 @@ export const DATA = {
       dates: "February 2026",
       active: true,
       description:
-        "An full stack invoice manager app with features like creating, editing, exporting, downloading and deleting invoices. Also includes a AI drivenn dashboard to get insights on the invoices.",
+        "An full stack invoice manager app with features like creating, editing, previewing, downloading and deleting invoices. Also includes a AI drivenn dashboard to get insights on the invoices.",
       technologies: [
         "Next.js",
         "Typescript",

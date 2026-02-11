@@ -390,6 +390,14 @@ const Resume = () => {
       demo: "https://www.youtube.com/watch?si=NpFmOMx6qmhoqclL&v=LTbuICvgpNA&feature=youtu.be"
     },
     {
+      title: "Invoice Manager",
+      subtitle: "An full stack invoice manager app with features like creating, editing, exporting, downloading and deleting invoices. Also includes a AI drivenn dashboard to get insights on the invoices.",
+      description: "This is a full stack project built using Next.js as framework, NeonDB as database and Drizzle ORM for database ORM. Also used NextAuth for authentication and Tambo AI for generating insights.",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "NeonDB", "NextAuth", "Tambo AI"],
+      github: "https://github.com/OlibhiaGhosh/Invoice_manager",
+      demo: "https://invoice-manager-six-indol.vercel.app/"
+    },
+    {
       title: "NotebookLM",
       subtitle: "An AI powered RAG chatbot where you can provide PDF, text, websites and youtube videos as context",
       description: "This is an AI powered RAG chatbot built using Langchain that takes pdf, text, websites, youtube videos and creates embeddings using OpenAI's embedding models. Open Source LLMs from Nebius are used for text generation. Also QdrantDB is used as the vector store.",

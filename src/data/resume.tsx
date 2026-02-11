@@ -146,6 +146,37 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Invoice Manager",
+      href: "https://github.com/OlibhiaGhosh/Invoice_manager",
+      dates: "February 2026",
+      active: true,
+      description:
+        "An full stack invoice manager app with features like creating, editing, exporting, downloading and deleting invoices. Also includes a AI drivenn dashboard to get insights on the invoices.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "NextAuth",
+        "NeonDB",
+        "Drizzle ORM",
+        "Tambo AI"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/OlibhiaGhosh/Invoice_manager",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://invoice-manager-six-indol.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/project-7.png",
+      video: "",
+    },
+    {
       title: "NotebookLM",
       href: "https://github.com/OlibhiaGhosh/NotebookLM",
       dates: "Sep 2025",
@@ -173,7 +204,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/project-6.jpg",
+      image: "/project-6.png",
       video: "",
     },
     {

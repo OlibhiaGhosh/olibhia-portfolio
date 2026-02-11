@@ -395,7 +395,7 @@ const Resume = () => {
       description: "This is a full stack project built using Next.js as framework, NeonDB as database and Drizzle ORM for database ORM. Also used NextAuth for authentication and Tambo AI for generating insights.",
       tech: ["Next.js", "TypeScript", "Tailwind CSS", "Drizzle ORM", "NeonDB", "NextAuth", "Tambo AI"],
       github: "https://github.com/OlibhiaGhosh/Invoice_manager",
-      deployment: "https://invoice-manager-six-indol.vercel.app/"
+      demo: "https://invoice-manager-six-indol.vercel.app/"
     },
     {
       title: "NotebookLM",
